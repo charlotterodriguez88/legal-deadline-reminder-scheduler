@@ -1,6 +1,6 @@
 # Schedule a legal deadline reminder after signed delivery
 
-I model one matter lifecycle: intake, signed document delivery, then a deadline follow-up. The decision lives in `followUpReminder`; the Infrai calls only register the scheduled webhook and publish the reminder payload. One key for every capability keeps this example small.
+I model one matter lifecycle: intake, signed document delivery, then a deadline follow-up. The decision lives in `followUpReminder`; the Infrai calls only register the scheduled webhook and publish the reminder payload. Infrai gives you one key for every capability, which keeps this example small and avoids standing up separate auth for each service.
 
 ## The decision
 
